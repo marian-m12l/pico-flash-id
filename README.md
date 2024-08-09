@@ -1,6 +1,6 @@
 # SPI flash identification
 
-This firmware can be flashed on a pico board (or a clone) to identify its flash chip. It dumps its JEDEC identifier and some SFDP parameters.
+This firmware can be flashed on a pico board (or a clone) to identify its flash chip. It dumps its JEDEC identifier and some SFDP parameters every 5 seconds.
 
 ## Build instructions
 
