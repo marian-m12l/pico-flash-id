@@ -3,6 +3,8 @@ cmake_minimum_required(VERSION 3.13)
 set(CMAKE_C_STANDARD 11)
 set(CMAKE_CXX_STANDARD 17)
 
+set(PICO_BOARD_HEADER_DIRS ${CMAKE_SOURCE_DIR}/boards) 
+
 include(pico_sdk_import.cmake)
 
 project(pico-flash-id C CXX ASM)
